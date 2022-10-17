@@ -5,6 +5,7 @@
  * @version 13 October 2022
  */
 
+
 class Scarecrow {
 
     //Parts of the Scarecrow
@@ -44,12 +45,14 @@ class Scarecrow {
     /* Main method (for testing) */
     public static void main(String[] args) {
 
-        // TODO: Don't forget to update the line below if you modify the constructor
         Scarecrow myScarecrow = new Scarecrow (new Pumpkin(), new Shirt(), new Pants(), new Boot("right"), new Boot("left"), new Banner("Hello"));
 
         // If a message was passed in on the command line, extract and store it
+          
+
         if (args.length > 0) {
-           // myScarecrow.message = args[0];
+          // myScarecrow.message = args[0]; 
+
         }
 
         myScarecrow.display();
