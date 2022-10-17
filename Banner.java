@@ -17,14 +17,15 @@ public class Banner {
    
     public void display() {
 
-        System.out.println("****************************");
-        System.out.println("*** ~~~~~~~~~~~~~~~~~~~~~~~~ ***");
-        System.out.print("*** ~");
-        System.out.println(this.message); 
-        System.out.print("~***");
-        System.out.println("*** ~~~~~~~~~~~~~~~~~~~~~~~~ ***");
-        System.out.println("********************     ***");
-        System.out.println(" *******");
+        System.out.println("           ****************************");
+        System.out.println("    *********~~~~~~~~~~~~~~~~~~~~~~~~ ********");
+        System.out.print("** ~");
+        System.out.print(this.message); 
+        System.out.println(" ~**");
+        System.out.println("    ******** ~~~~~~~~~~~~~~~~~~~~~~~~ ********");
+        System.out.println("           ****************************");
+        System.out.println("                    *******");
+        System.out.println("                    ***");
 
     }
 
