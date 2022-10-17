@@ -11,19 +11,26 @@ public class Banner {
 
     /* Constructor */
     public Banner(String m) {
-        this.message = m;
+        this.message = "I'm am the mighty scarecrow! Fear me birds!";
     }
 
-    /*
-     * TODO: Modify this method to print a decorative banner, resized to fit the message
-     */
+   
     public void display() {
-        System.out.println(this.message);
+
+        System.out.println("****************************");
+        System.out.println("*** ~~~~~~~~~~~~~~~~~~~~~~~~ ***");
+        System.out.print("*** ~");
+        System.out.println(this.message); 
+        System.out.print("~***");
+        System.out.println("*** ~~~~~~~~~~~~~~~~~~~~~~~~ ***");
+        System.out.println("********************     ***");
+        System.out.println(" *******");
+
     }
 
     /* main method (for testing) */
     public static void main(String[] args) {
-        Banner myBanner = new Banner("Hello world");
-        myBanner.display();
+        Banner myBanner = new Banner("Hello");
+        myBanner.display(); 
     }
 }
