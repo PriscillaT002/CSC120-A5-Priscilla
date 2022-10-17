@@ -16,7 +16,7 @@ public class Pumpkin {
         System.out.println("              ___                        /\\                 /\\  ");
         System.out.println("           ___)__|_                     / \\'._   (\\_/)   _.'/ \\");
         System.out.println("      .-*'          '*-,                |.''._'--(o.o)--'_.''.|");
-        System.out.println("     /      /|   |\\     \\               \\_ / `;= /    \\-. \\_  /");
+        System.out.println("     /      /|   |\\     \\               \\_ / `;= /    \\-. \\__/");
         System.out.println("    ;      /_|   |_\\     ;                 `\\__| \\___/ |__/` ");
         System.out.println("    ;   |\\    /\\     /|  ;                      \\(_|_)/ ");
         System.out.println("    ;   | \\/--...--\\/ |  ;                       '   ' ");
