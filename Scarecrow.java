@@ -51,7 +51,10 @@ class Scarecrow {
           
 
         if (args.length > 0) {
-          // myScarecrow.message = args[0]; 
+
+            //myScarecrow.message = args[0]; 
+            //System.out.println(cmdArgument);
+
 
         }
 
